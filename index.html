@@ -149,7 +149,11 @@
                         welfare.
                     </p>
                     <p class="hero__contact">
-                        <a href="https://wa.me/917860266651" class="hero__email">Connect on WhatsApp</a>
+                        <a href="tel:+917860266651" class="hero__link">📞 Call</a>
+                        <span class="spacer">|</span>
+                        <a href="https://wa.me/917860266651" class="hero__link">💬 WhatsApp</a>
+                        <span class="spacer">|</span>
+                        <a href="https://t.me/truthfulnesscenter" class="hero__link">✈️ Telegram</a>
                     </p>
 
                     <div class="hero__cta">
@@ -159,12 +163,13 @@
                     </div>
                 </div>
 
-                <div class="hero__image">
-                    <div class="hero__portrait">
-                        <!-- Using the user-provided asset -->
-                        <img src="./assets/images/image.png" alt="Truthfulness Center" loading="eager">
-                        <div class="hero__portrait-overlay"></div>
-                    </div>
+                <div class="hero__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0!2d82.0340696!3d27.5054332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999c52d1ee02f2d%3A0x4428337430bd59f8!2sTruthfulness%20Center!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+                        width="100%" height="450"
+                        style="border:0; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -303,7 +308,8 @@
                 </div>
 
                 <div class="philanthropy__cta">
-                    <a href="https://wa.me/917860266651" class="btn btn--gold" data-i18n="philanthropy.cta">Contact Us on
+                    <a href="https://wa.me/917860266651" class="btn btn--gold" data-i18n="philanthropy.cta">Contact Us
+                        on
                         WhatsApp</a>
                 </div>
             </div>
@@ -477,6 +483,23 @@
         </div>
     </section>
 
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section section--alt">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="reviews.title">Google Reviews</h2>
+                <p class="section__subtitle" data-i18n="reviews.subtitle">What our community says</p>
+            </div>
+            <div class="reviews__grid" id="reviewsGrid">
+                <!-- Reviews will be populated by JS -->
+            </div>
+            <div class="reviews__cta">
+                <a href="https://www.google.com/maps/place/Truthfulness+Center/@27.5054332,82.0340696,17z/data=!3m1!4b1!4m6!3m5!1s0x3999c52d1ee02f2d:0x4428337430bd59f8!8m2!3d27.5054332!4d82.0340696!16s%2Fg%2F11ysb1hdr3"
+                    target="_blank" class="btn btn--secondary">Write a Review</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -486,16 +509,26 @@
                     <p class="footer__tagline" data-i18n="footer.tagline">Satyanishtha Kendra</p>
                     <p class="footer__mission" data-i18n="footer.mission">Building a future of truth.</p>
                     <p class="footer__whatsapp" style="margin-top: 5px;">
-                        <a href="https://wa.me/917860266651" target="_blank"
+                        <a href="tel:+917860266651" target="_blank"
                             style="display: flex; align-items: center; gap: 8px; color: #9F7AEA;">
-                            <span>WhatsApp: +91 78602 66651</span>
+                            <span>📞 Call: +91 78602 66651</span>
+                        </a>
+                        <a href="https://wa.me/917860266651" target="_blank"
+                            style="display: flex; align-items: center; gap: 8px; color: #9F7AEA; margin-top: 5px;">
+                            <span>💬 WhatsApp: +91 78602 66651</span>
+                        </a>
+                        <a href="https://t.me/truthfulnesscenter" target="_blank"
+                            style="display: flex; align-items: center; gap: 8px; color: #9F7AEA; margin-top: 5px;">
+                            <span>✈️ Telegram: @truthfulnesscenter</span>
                         </a>
                     </p>
                 </div>
                 <div class="footer__col">
                     <h4 class="footer__heading" data-i18n="footer.connect.title">Connect</h4>
                     <ul class="footer__links footer__links--social">
+                        <li><a href="tel:+917860266651">Call Us</a></li>
                         <li><a href="https://wa.me/917860266651">WhatsApp</a></li>
+                        <li><a href="https://t.me/truthfulnesscenter">Telegram</a></li>
                     </ul>
                 </div>
             </div>

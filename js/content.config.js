@@ -153,7 +153,20 @@ const content = {
       cta: "Book a Session",
       connect: {
         whatsapp: "78602 66651",
+        telegram: "truthfulnesscenter", // Placeholder, please verify
+        phone: "+91 78602 66651",
       },
+      map: {
+        url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0!2d82.0340696!3d27.5054332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999c52d1ee02f2d%3A0x4428337430bd59f8!2sTruthfulness%20Center!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin",
+        address: "Truthfulness Centre, Dhamma Suvatthi, Katra by-pass road, opp. Budhha Inter College, Katra, Shravasti, Uttar Pradesh 271805",
+      },
+      reviews: [
+        {
+          author: "Steve Reilly",
+          text: "Beautiful people to visit 🙏 nice vibration in such a powerful area …",
+          stars: 5,
+        }
+      ],
     },
 
     // Investment Section (Adapted to Vision)

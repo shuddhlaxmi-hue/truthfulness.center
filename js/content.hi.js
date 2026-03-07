@@ -81,6 +81,10 @@ if (typeof content !== 'undefined') {
             timeline4: { title: "T4", desc: "D4" },
             timeline5: { title: "T5", desc: "D5" }
         },
+        reviews: {
+            title: "गूगल समीक्षाएं",
+            subtitle: "हमारा समुदाय क्या कहता है",
+        },
         footer: {
             tagline: "Tagline",
             mission: "Mission",

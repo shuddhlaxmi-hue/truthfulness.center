@@ -473,6 +473,25 @@
         });
     };
 
+    const renderReviews = () => {
+        const reviewsGrid = document.getElementById("reviewsGrid");
+        if (!reviewsGrid || !content[currentLang].reviews) return;
+
+        // Note: Reviews data is currently only in content.en.reviews for actual data
+        // but we use the current language's title/subtitle via data-i18n in HTML
+        const reviewsData = content.en.reviews; // Use English data as source of truth for raw reviews
+
+        reviewsGrid.innerHTML = reviewsData.map(review => `
+            <div class="review-card">
+                <div class="review-card__stars">
+                    ${'★'.repeat(review.stars)}${'☆'.repeat(5 - review.stars)}
+                </div>
+                <p class="review-card__text">"${review.text}"</p>
+                <p class="review-card__author">- ${review.author}</p>
+            </div>
+        `).join('');
+    };
+
     // ===================
     // UTILITY FUNCTIONS
     // ===================
@@ -568,9 +587,17 @@
         initScrollAnimations();
         initHeroNetwork();
         initModal();
+        renderReviews();
         updateCurrentYear();
         optimizePerformance();
         enhanceAccessibility();
+
+        // Update reviews when language changes
+        const originalUpdateContent = updateContent;
+        window.updateContent = (lang) => {
+            originalUpdateContent(lang);
+            renderReviews();
+        };
 
         // Remove no-js class if present
         document.documentElement.classList.remove("no-js");
