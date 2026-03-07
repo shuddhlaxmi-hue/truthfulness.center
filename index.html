@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <!-- Primary Meta Tags -->
+    <title>Truthfulness Center - Satyanishtha Kendra | Education, Transparency & Community</title>
+    <meta name="title" content="Truthfulness Center - Satyanishtha Kendra">
+    <meta name="description"
+        content="Truthfulness Center (Satyanishtha Kendra) is a community-based decentralized network for truth. We empower individuals through education, transparency, and innovation.">
+    <meta name="keywords"
+        content="Truthfulness Center, Satyanishtha Kendra, Kashish Gupta, Education, Transparency, Community, Decentralized Network, Nexa, Ethics, Mindfulness">
+    <meta name="author" content="Kashish Gupta">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://truthfulness.center/">
+    <meta property="og:title" content="Truthfulness Center - Satyanishtha Kendra">
+    <meta property="og:description"
+        content="A Community Based Decentralized Network for Truth. Empowering individuals through education.">
+    <!-- Placeholder image, ideally we have one -->
+    <meta property="og:image" content="https://truthfulness.center/assets/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://truthfulness.center/">
+    <meta property="twitter:title" content="Truthfulness Center - Satyanishtha Kendra">
+    <meta property="twitter:description" content="A Community Based Decentralized Network for Truth.">
+    <meta property="twitter:image" content="https://truthfulness.center/assets/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <!-- Creating placeholders implicitly by checking them in HTML, ideally we should create these files -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Theme Color (Matt Black) -->
+    <meta name="theme-color" content="#151515">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://truthfulness.center/">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Truthfulness Center",
+      "alternateName": "Satyanishtha Kendra",
+      "url": "https://truthfulness.center",
+      "logo": "https://truthfulness.center/assets/icons/logo.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Kashish Gupta"
+      },
+      "description": "Center dedicated to people's welfare, spreading education, and building a transparent future."
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav__content">
+                <a href="#hero" class="nav__logo" aria-label="Truthfulness Center - Home">
+                    <!-- Text Logo -->
+                    <span class="nav__logo-text">TC</span>
+                </a>
+
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#about" class="nav__link" data-i18n="nav.about">About</a></li>
+                    <li class="nav__item"><a href="#nexa" class="nav__link" data-i18n="nav.nexa">Network</a></li>
+                    <li class="nav__item"><a href="#philanthropy" class="nav__link"
+                            data-i18n="nav.philanthropy">Center</a></li>
+                    <li class="nav__item"><a href="#counseling" class="nav__link"
+                            data-i18n="nav.counseling">Counseling</a></li>
+                    <li class="nav__item"><a href="#ecosystem" class="nav__link"
+                            data-i18n="nav.ecosystem">Initiatives</a></li>
+                    <li class="nav__item"><a href="#investment" class="nav__link" data-i18n="nav.investment">Vision</a>
+                    </li>
+                </ul>
+
+                <div class="nav__lang" id="langToggle">
+                    <button class="lang-toggle-btn" aria-label="Change language">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor">
+                            <path d="M10 2C5.582 2 2 5.582 2 10s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8z"
+                                stroke-width="1.5" />
+                            <path
+                                d="M2 10h16M10 2a15.3 15.3 0 014 8 15.3 15.3 0 01-4 8 15.3 15.3 0 01-4-8 15.3 15.3 0 014-8z"
+                                stroke-width="1.5" />
+                        </svg>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="#" class="lang-option active" data-lang="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span>English</span>
+                        </a>
+                        <a href="#" class="lang-option" data-lang="hi">
+                            <span class="lang-flag">🇮🇳</span>
+                            <span>हिन्दी</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" role="banner">
+        <div class="hero__background">
+            <div class="hero__network"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__name" data-i18n="hero.name">Truthfulness Center</h1>
+                    <p class="hero__roles" data-i18n="hero.roles">Satyanishtha Kendra · Education · Transparency</p>
+                    <h2 class="hero__headline" data-i18n="hero.headline">A Community Based Decentralized Network for
+                        Truth</h2>
+                    <p class="hero__subheadline" data-i18n="hero.subheadline">
+                        Empowering individuals through education and innovation. We are a center dedicated to people's
+                        welfare.
+                    </p>
+                    <p class="hero__contact">
+                        <a href="https://wa.me/917860266651" class="hero__email">Connect on WhatsApp</a>
+                    </p>
+
+                    <div class="hero__cta">
+                        <a href="https://wa.me/917860266651" class="btn btn--primary" data-i18n="hero.cta.primary">Join
+                            Community</a>
+                        <a href="#philanthropy" class="btn btn--secondary" data-i18n="hero.cta.secondary">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="hero__image">
+                    <div class="hero__portrait">
+                        <!-- Using the user-provided asset -->
+                        <img src="./assets/images/image.png" alt="Truthfulness Center" loading="eager">
+                        <div class="hero__portrait-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__scroll">
+            <a href="#about" aria-label="Scroll to About section">
+                <span class="hero__scroll-indicator"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="about.title">About Kashish Gupta</h2>
+                <p class="section__subtitle" data-i18n="about.subtitle">Educator, Investor, and Founder</p>
+            </div>
+
+            <div class="about__content">
+                <div class="about__story">
+                    <p data-i18n="about.paragraph1">
+                        I am a proud graduate of Delhi Technological University (DTU) with a passion for empowering
+                        individuals through education and innovation.
+                    </p>
+                    <p data-i18n="about.paragraph2">
+                        Through my work at the Truthfulness Center, I guide individuals towards personal growth and
+                        mindful living.
+                    </p>
+                </div>
+
+                <div class="about__pillars">
+                    <div class="pillar">
+                        <div class="pillar__icon">
+                            <!-- Academic Cap -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l9-5-9-5-9 5 9 5z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n="about.pillar1.title">Education</h3>
+                        <p class="pillar__desc" data-i18n="about.pillar1.desc">Teaching practical concepts in math and
+                            tech</p>
+                    </div>
+                    <!-- Reuse other SVGs or placeholders -->
+                    <div class="pillar">
+                        <div class="pillar__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n="about.pillar2.title">Counseling</h3>
+                        <p class="pillar__desc" data-i18n="about.pillar2.desc">Guidance for clarity and direction</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n="about.pillar3.title">Innovation</h3>
+                        <p class="pillar__desc" data-i18n="about.pillar3.desc">Building for a better future</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="pillar__title" data-i18n="about.pillar4.title">Community</h3>
+                        <p class="pillar__desc" data-i18n="about.pillar4.desc">Fostering ethical and impactful networks
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philanthropy / Truthfulness Center Section -->
+    <section id="philanthropy" class="philanthropy section section--alt">
+        <!-- Reusing Philanthropy class but content is Truthfulness Center -->
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="philanthropy.title">Truthfulness Center</h2>
+                <p class="section__subtitle" data-i18n="philanthropy.subtitle">Satyanishtha Kendra</p>
+            </div>
+
+            <div class="philanthropy__content">
+                <div class="philanthropy__story">
+                    <p data-i18n="philanthropy.intro">
+                        The Truthfulness Center is an institution dedicated to the welfare of people.
+                    </p>
+                </div>
+
+                <div class="philanthropy__impact">
+                    <!-- Impact Cards -->
+                    <div class="impact-card">
+                        <div class="impact-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg></div>
+                        <h3 class="impact-card__title" data-i18n="philanthropy.impact1.title">Welfare</h3>
+                        <p class="impact-card__desc" data-i18n="philanthropy.impact1.desc">Working tirelessly for
+                            society.</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg></div>
+                        <h3 class="impact-card__title" data-i18n="philanthropy.impact2.title">Education</h3>
+                        <p class="impact-card__desc" data-i18n="philanthropy.impact2.desc">Spreading knowledge.</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg></div>
+                        <h3 class="impact-card__title" data-i18n="philanthropy.impact3.title">Community</h3>
+                        <p class="impact-card__desc" data-i18n="philanthropy.impact3.desc">Decentralized network.</p>
+                    </div>
+                </div>
+
+                <div class="philanthropy__cta">
+                    <a href="https://wa.me/917860266651" class="btn btn--gold" data-i18n="philanthropy.cta">Contact Us on
+                        WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nexa/Network Section -->
+    <section id="nexa" class="nexa section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="nexa.title">Decentralized Network</h2>
+                <p class="section__subtitle" data-i18n="nexa.subtitle">Community Based & Transparent</p>
+            </div>
+
+            <div class="nexa__content">
+                <div class="nexa__features">
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature__title" data-i18n="nexa.feature1.title">Community First</h3>
+                        <p class="feature__desc" data-i18n="nexa.feature1.desc">Built by the community.</p>
+                    </div>
+                    <!-- Reuse icons -->
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature__title" data-i18n="nexa.feature2.title">Transparency</h3>
+                        <p class="feature__desc" data-i18n="nexa.feature2.desc">Operating with absolute truthfulness.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="feature__title" data-i18n="nexa.feature3.title">Empowerment</h3>
+                        <p class="feature__desc" data-i18n="nexa.feature3.desc">Providing tools and knowledge.</p>
+                    </div>
+                </div>
+
+                <div class="nexa__chips">
+                    <span class="chip" data-i18n="nexa.chip1">Education</span>
+                    <span class="chip" data-i18n="nexa.chip2">Welfare</span>
+                    <span class="chip" data-i18n="nexa.chip3">Truth via Tech</span>
+                    <span class="chip" data-i18n="nexa.chip4">Innovation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecosystem (Initiatives) -->
+    <section id="ecosystem" class="ecosystem section section--alt">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="ecosystem.title">Our Initiatives</h2>
+                <p class="section__subtitle" data-i18n="ecosystem.subtitle">Projects & Platforms</p>
+            </div>
+            <div class="ecosystem__grid">
+                <!-- Using placeholder content mapped in content.config.js -->
+                <div class="ecosystem-card">
+                    <div class="ecosystem-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg></div>
+                    <h3 class="ecosystem-card__title">Centers</h3>
+                    <p class="ecosystem-card__desc" data-i18n="ecosystem.house.desc">Building physical centers.</p>
+                    <a href="#" class="ecosystem-card__link ecosystem-card__link--soon"
+                        data-i18n="ecosystem.soon">Coming Soon</a>
+                </div>
+                <div class="ecosystem-card">
+                    <div class="ecosystem-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg></div>
+                    <h3 class="ecosystem-card__title">Training</h3>
+                    <p class="ecosystem-card__desc" data-i18n="ecosystem.training.desc">Technical training.</p>
+                    <a href="#" class="ecosystem-card__link ecosystem-card__link--soon"
+                        data-i18n="ecosystem.soon">Coming Soon</a>
+                </div>
+                <div class="ecosystem-card">
+                    <div class="ecosystem-card__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                        </svg></div>
+                    <h3 class="ecosystem-card__title">Truthfulness.center</h3>
+                    <p class="ecosystem-card__desc" data-i18n="ecosystem.org.desc">Official Portal.</p>
+                    <a href="https://truthfulness.center" class="ecosystem-card__link"
+                        data-i18n="ecosystem.visit">Visit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counseling -->
+    <section id="counseling" class="counseling section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="counseling.title">Counseling & Mentoring</h2>
+                <p class="section__subtitle" data-i18n="counseling.subtitle">Guidance</p>
+            </div>
+            <div class="counseling__services">
+                <div class="service-card">
+                    <div class="service-card__number">01</div>
+                    <h3 class="service-card__title" data-i18n="counseling.service1.title">Career Counseling</h3>
+                    <p class="service-card__desc" data-i18n="counseling.service1.desc">Expert guidance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__number">02</div>
+                    <h3 class="service-card__title" data-i18n="counseling.service2.title">Math & Tech</h3>
+                    <p class="service-card__desc" data-i18n="counseling.service2.desc">Practical concepts.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__number">03</div>
+                    <h3 class="service-card__title" data-i18n="counseling.service3.title">Mindfulness</h3>
+                    <p class="service-card__desc" data-i18n="counseling.service3.desc">Balanced life.</p>
+                </div>
+            </div>
+            <div class="counseling__cta">
+                <a href="https://wa.me/917860266651" class="btn btn--primary" id="requestSessionBtn"
+                    data-i18n="counseling.cta">Book a Session</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment/Vision Section -->
+    <section id="investment" class="investment section section--alt">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-i18n="investment.title">Our Vision</h2>
+                <p class="section__subtitle" data-i18n="investment.subtitle">Legacy of Truth</p>
+            </div>
+            <div class="investment__content">
+                <div class="investment__story">
+                    <p data-i18n="investment.paragraph">Vision text.</p>
+                </div>
+                <div class="investment__timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-item__marker"><span class="timeline-item__number">1</span></div>
+                        <div class="timeline-item__content">
+                            <h3 class="timeline-item__title" data-i18n="investment.timeline1.title">Education</h3>
+                            <p class="timeline-item__desc" data-i18n="investment.timeline1.desc">Foundation.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item__marker"><span class="timeline-item__number">2</span></div>
+                        <div class="timeline-item__content">
+                            <h3 class="timeline-item__title" data-i18n="investment.timeline2.title">Community</h3>
+                            <p class="timeline-item__desc" data-i18n="investment.timeline2.desc">Connection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__col footer__col--main">
+                    <h3 class="footer__name" data-i18n="hero.name">Truthfulness Center</h3>
+                    <p class="footer__tagline" data-i18n="footer.tagline">Satyanishtha Kendra</p>
+                    <p class="footer__mission" data-i18n="footer.mission">Building a future of truth.</p>
+                    <p class="footer__whatsapp" style="margin-top: 5px;">
+                        <a href="https://wa.me/917860266651" target="_blank"
+                            style="display: flex; align-items: center; gap: 8px; color: #9F7AEA;">
+                            <span>WhatsApp: +91 78602 66651</span>
+                        </a>
+                    </p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__heading" data-i18n="footer.connect.title">Connect</h4>
+                    <ul class="footer__links footer__links--social">
+                        <li><a href="https://wa.me/917860266651">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem; color: #555; font-size: 0.8rem;">
+                <p id="currentYear">2026</p> &copy; Truthfulness Center. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal__overlay"></div>
+        <div class="modal__container">
+            <button class="modal__close" aria-label="Close modal">&times;</button>
+            <h3 class="modal__title" id="modalTitle" data-i18n="modal.title">Contact Us</h3>
+            <p class="modal__desc" data-i18n="modal.desc">Connect with us on WhatsApp.</p>
+            <form class="form" id="contactForm">
+                <!-- Form fields here if needed, or just a direct link to WhatsApp -->
+                <div class="form__group">
+                    <a href="https://wa.me/917860266651" class="btn btn--primary btn--full">Open WhatsApp</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/content.config.js"></script>
+    <script src="./js/content.hi.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

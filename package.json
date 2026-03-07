@@ -1,0 +1,38 @@
+{
+    "name": "truthfulness.center",
+    "version": "1.0.0",
+    "description": "Truthfulness Center (Satyanishtha Kendra) - Education, Transparency, and Community",
+    "main": "index.html",
+    "scripts": {
+        "sass": "sass scss/styles.scss css/styles.css --watch",
+        "sass:build": "sass scss/styles.scss css/styles.css --style=compressed --no-source-map",
+        "serve": "npx serve .",
+        "dev": "npm-run-all --parallel sass serve",
+        "build": "npm run sass:build && npm run build:js",
+        "build:js": "npm run build:js:en && npm run build:js:hi",
+        "build:js:en": "esbuild js/main.js --bundle --outfile=dist/main.en.js --minify --define:LANGUAGE='\"en\"'",
+        "build:js:hi": "esbuild js/main.js --bundle --outfile=dist/main.hi.js --minify --define:LANGUAGE='\"hi\"'",
+        "sitemap": "./scripts/generate-sitemap.sh",
+        "robots": "./scripts/generate-robots.sh",
+        "seo": "npm run sitemap && npm run robots",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+        "truthfulness center",
+        "satyanishtha kendra",
+        "education",
+        "transparency",
+        "community",
+        "nexa",
+        "blockchain"
+    ],
+    "author": "Kashish Gupta",
+    "license": "MIT",
+    "devDependencies": {
+        "esbuild": "^0.19.12",
+        "npm-run-all": "^4.1.5",
+        "sass": "^1.69.0",
+        "serve": "^14.2.1"
+    },
+    "homepage": "https://truthfulness.center"
+}
