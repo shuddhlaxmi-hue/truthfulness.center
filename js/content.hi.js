@@ -69,7 +69,7 @@ if (typeof content !== 'undefined') {
             service2: { title: "S2", desc: "D2" },
             service3: { title: "S3", desc: "D3" },
             cta: "Book",
-            connect: { whatsapp: "78602 66651" }
+            connect: { whatsapp: "86196 88981", phone: "+91 8619688981", email: "truthfulnesscenter@gmail.com" }
         },
         investment: {
             title: "Vision",
@@ -94,7 +94,7 @@ if (typeof content !== 'undefined') {
         },
         modal: {
             title: "Contact",
-            desc: "Desc",
+            desc: "हमें कॉल या ईमेल करें।",
             form: {
                 name: "Name", email: "Email", interest: "Interest", message: "Message",
                 option1: "O1", option2: "O2", option3: "O3", option4: "O4", option5: "O5",

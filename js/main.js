@@ -431,7 +431,6 @@
         const openBtn = document.getElementById("requestSessionBtn");
         const closeBtn = modal?.querySelector(".modal__close");
         const overlay = modal?.querySelector(".modal__overlay");
-        const form = document.getElementById("contactForm");
 
         const openModal = () => {
             modal.classList.add("active");
@@ -455,22 +454,6 @@
             }
         });
 
-        // Form submission
-        form?.addEventListener("submit", (e) => {
-            e.preventDefault();
-
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData);
-
-            console.log("Form submitted:", data);
-
-            alert(
-                "Thank you for your message! We will encourage you to join our network!"
-            );
-
-            form.reset();
-            closeModal();
-        });
     };
 
     const renderReviews = () => {
