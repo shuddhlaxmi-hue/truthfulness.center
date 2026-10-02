@@ -31,12 +31,12 @@ const content = {
 
     // About Section
     about: {
-      title: "About Kashish Gupta",
-      subtitle: "Educator, Investor, and Founder",
+      title: "About Our Center",
+      subtitle: "Education, Transparency, and Community",
       paragraph1:
-        'I am a proud graduate of <b>Delhi Technological University (DTU)</b> with a passion for empowering individuals through education and innovation. As an angel investor and educator, I focus on building ethical and impactful communities.',
+        "Truthfulness Center (Satyanishtha Kendra) supports people's welfare, education, and a more transparent future through community-centered initiatives.",
       paragraph2:
-        "Through my work at the <b>Truthfulness Center</b>, I guide individuals towards personal growth and mindful living. I am dedicated to empowering individuals with clarity, focus, and practical skills to achieve their personal and professional goals.",
+        "Our programs focus on practical learning, personal growth, and mindful living to help people build clarity, focus, and useful skills.",
       pillar1: {
         title: "Education",
         desc: "Teaching practical concepts in math and tech",

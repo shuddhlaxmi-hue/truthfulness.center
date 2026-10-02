@@ -27,7 +27,7 @@
         "nexa",
         "blockchain"
     ],
-    "author": "Kashish Gupta",
+    "author": "Truthfulness Center",
     "license": "MIT",
     "devDependencies": {
         "esbuild": "^0.19.12",
